@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+
+h2 {
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  font-size: larger;
+  height: 45px;
+  border-radius: 4px;
+  width: 50px;
+  background: #979494;
+  color: white;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.container {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2rem;
+  width: 100%;
+  margin: 2.125rem auto 0 auto;
+  padding: 2rem 0;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+  text-align: center;
+}
+
+.input-number {
+  display: inline-block;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+.section label {
+  display: block;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+#first-message,
+#second-message {
+  height: 20px;
+  font-size: 18px;
+  color: red;
+  text-align: left;
+}
+
+.error-message {
+  border: 3px solid red;
+}
+
+.success-message {
+  border: 3px solid green;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+span {
+  color: #3434ff;
+}

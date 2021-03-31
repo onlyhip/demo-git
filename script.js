@@ -21,7 +21,6 @@ function checkFirstNumber() {
             return false;
         }
     }
-
 }
 
 function checkSecondNumber() {
@@ -48,7 +47,6 @@ function checkSecondNumber() {
             return false;
         }
     }
-
 };
 
 function checkDivideZero() {

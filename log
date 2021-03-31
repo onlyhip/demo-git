@@ -1,0 +1,59 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mdeleted file mode 100644[m
+[1mindex 46cd507..0000000[m
+[1m--- a/index.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,48 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="en">[m
+[31m-[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Calculator</title>[m
+[31m-    <link rel="stylesheet" href="style.css">[m
+[31m-</head>[m
+[31m-[m
+[31m-<body>[m
+[31m-    <div class="container">[m
+[31m-        <div class="header">[m
+[31m-            <h2>CALCULATOR V2</h2>[m
+[31m-        </div>[m
+[31m-[m
+[31m-[m
+[31m-        <div class="section">[m
+[31m-            <div class="input-number">[m
+[31m-                <label for="first-number">First Number:</label>[m
+[31m-                <input type="text" id="first-number" />[m
+[31m-                <p id="first-message"></p>[m
+[31m-            </div>[m
+[31m-            <div class="input-number">[m
+[31m-                <label for="second-number">Second Number:</label>[m
+[31m-                <input type="text" id="second-number" />[m
+[31m-                <p id="second-message"></p>[m
+[31m-            </div>[m
+[31m-        </div>[m
+[31m-        [m
+[31m-[m
+[31m-        <div class="nav-menu">[m
+[31m-            <button onclick="addNumber()">+</button>[m
+[31m-            <button onclick="subNumber()">&minus;</button>[m
+[31m-            <button onclick="mulNumber()">&times;</button>[m
+[31m-            <button onclick="divNumber()">&divide;</button>[m
+[31m-        </div>[m
+[31m-        [m
+[31m-        [m
+[31m-        <div class="result">[m
+[31m-            <p>Result is: <span id="result"></span> </p>[m
+[31m-        </div>[m
+[31m-    </div>[m
+[31m-    <script src="script.js"></script>[m
+[31m-</body>[m
+[31m-[m
+[31m-</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/script.js b/script-new.js[m
+[1msimilarity index 100%[m
+[1mrename from script.js[m
+[1mrename to script-new.js[m
